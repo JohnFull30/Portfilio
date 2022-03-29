@@ -149,6 +149,7 @@ img {
 
 .nav-list a:hover {
   background: var(--main-blue);
+  color: red;
 }
 
 /* Welcome section */
@@ -211,10 +212,11 @@ img {
   }
 }
 
-.project {
+.project p:hover {
   background: var(--main-gray);
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   border-radius: 2px;
+  color: red;
 }
 
 .code {
