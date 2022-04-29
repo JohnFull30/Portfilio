@@ -70,17 +70,17 @@ html {
 
 body {
   font-family: cursive;
+  background-color: black;
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 1.4;
-  color: white;
+  color: rgb(0, 0, 0);
   background-image: url("file:///C:/Users/John's%20PC/Desktop/Adobe/Camera%20Roll%20-%20Copy/My%20Logos/F%202.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   height: 0px;
 }
-
 
 h1,
 h2 {
@@ -312,4 +312,3 @@ img {
 .contact-details:hover {
   transform: translateY(8px);
 }
- 
