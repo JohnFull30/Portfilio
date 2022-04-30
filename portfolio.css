@@ -23,6 +23,7 @@ portfolio/* Custom properties/variables  */
 
 html {
   box-sizing: border-box;
+  font-family: "Comic Neue", cursive;
 
   /* Set font size for easy rem calculations
    * default document font size = 16px, 1rem = 16px, 100% = 16px
@@ -51,6 +52,7 @@ html {
 @media (max-width: 75em) {
   html {
     font-size: 60%;
+    font-family: "Comic Neue", cursive;
   }
 }
 
@@ -58,6 +60,7 @@ html {
 @media (max-width: 61.25em) {
   html {
     font-size: 58%;
+    font-family: "Comic Neue", cursive;
   }
 }
 
@@ -65,6 +68,7 @@ html {
 @media (max-width: 28.75em) {
   html {
     font-size: 55%;
+    font-family: "Comic Neue", cursive;
   }
 }
 
