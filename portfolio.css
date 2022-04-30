@@ -195,7 +195,7 @@ img {
 .welcome-section > p {
   font-size: 3rem;
   font-weight: 200;
-  font-style: italic;
+  font-style: "Comic Neue", cursive;
   color: var(--main-red);
   height: 50%;
   font-family: "Comic Neue", cursive;
