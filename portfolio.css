@@ -75,6 +75,7 @@ html {
 }
 
 body {
+  font-family: "Comic Neue", cursive;
   background-color: black;
   font-size: 1.8rem;
   font-weight: 400;
@@ -107,15 +108,18 @@ h1 {
 
 h2 {
   font-size: 4.2rem;
+  font-family: "Comic Neue", cursive;
 }
 
 ul {
   list-style: none;
+  font-family: "Comic Neue", cursive;
 }
 
 a {
   text-decoration: none;
   color: var(--main-white);
+  font-family: "Comic Neue", cursive;
 }
 
 img {
@@ -151,10 +155,12 @@ img {
 @media (max-width: 28.75em) {
   .nav {
     justify-content: center;
+    font-family: "Comic Neue", cursive;
   }
 
   .nav-list {
     margin: 0 1rem;
+    font-family: "Comic Neue", cursive;
   }
 }
 
@@ -179,6 +185,7 @@ img {
   align-items: center;
   width: 100%;
   height: 100vh;
+  font-family: "Comic Neue", cursive;
 }
 
 .welcome-section > p {
@@ -187,6 +194,7 @@ img {
   font-style: italic;
   color: var(--main-red);
   height: 50%;
+  font-family: "Comic Neue", cursive;
 }
 
 /* Projects section */
@@ -195,17 +203,20 @@ img {
   text-align: center;
   padding: 10rem 2rem;
   background: var(--main-blue);
+  font-family: "Comic Neue", cursive;
 }
 
 .projects-section-header {
   max-width: 640px;
   margin: 0 auto 6rem auto;
   border-bottom: 0.2rem solid var(--main-white);
+  font-family: "Comic Neue", cursive;
 }
 
 @media (max-width: 28.75em) {
   .projects-section-header {
     font-size: 4rem;
+    font-family: "Comic Neue", cursive;
   }
 }
 
@@ -223,6 +234,7 @@ img {
 @media (max-width: 30.625em) {
   .projects-section {
     padding: 6rem 1rem;
+    font-family: "Comic Neue", cursive;
   }
 
   .projects-grid {
@@ -261,6 +273,7 @@ img {
   display: inline-block;
   padding: 1rem 2rem;
   border-radius: 2px;
+  font-family: "Comic Neue", cursive;
 }
 
 .btn-show-all {
@@ -296,6 +309,7 @@ img {
   height: 150vh;
   padding: 0 2rem;
   background: var(--main-gray);
+  font-family: "Comic Neue", cursive;
 }
 
 .contact-section-header > h2 {
