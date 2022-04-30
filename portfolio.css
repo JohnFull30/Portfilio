@@ -103,6 +103,7 @@ h2 {
 
 h1 {
   font-size: 6rem;
+  font-family: "Comic Neue", cursive;
 }
 
 h2 {
@@ -145,6 +146,7 @@ img {
 .nav-list {
   display: flex;
   margin-right: 2rem;
+  font-family: "Comic Neue", cursive;
 }
 
 @media (max-width: 28.75em) {
@@ -161,6 +163,7 @@ img {
   display: block;
   font-size: 2.2rem;
   padding: 2rem;
+  font-family: "Comic Neue", cursive;
 }
 
 .nav-list a:hover {
@@ -265,6 +268,7 @@ img {
   font-size: 2rem;
   background: var(--main-gray);
   transition: background 0.3s ease-out;
+  font-family: "Comic Neue", cursive;
 }
 
 .btn-show-all:hover {
@@ -302,11 +306,13 @@ img {
 @media (max-width: 28.75em) {
   .contact-section-header > h2 {
     font-size: 4rem;
+    font-family: "Comic Neue", cursive;
   }
 }
 
 .contact-section-header > p {
   font-style: italic;
+  font-family: "Comic Neue", cursive;
 }
 
 .contact-links {
@@ -322,6 +328,7 @@ img {
   font-size: 2.4rem;
   text-shadow: 2px 2px 1px #1f1f1f;
   transition: transform 0.3s ease-out;
+  font-family: "Comic Neue", cursive;
 }
 
 .contact-details:hover {
