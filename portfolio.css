@@ -23,7 +23,7 @@ portfolio/* Custom properties/variables  */
 
 html {
   box-sizing: border-box;
-  font-family: "Comic Neue", cursive;
+  font-family: "Comic Neue";
 
   /* Set font size for easy rem calculations
    * default document font size = 16px, 1rem = 16px, 100% = 16px
@@ -52,7 +52,7 @@ html {
 @media (max-width: 75em) {
   html {
     font-size: 60%;
-    font-family: "Comic Neue", cursive;
+    font-family: "Comic Neue";
   }
 }
 
@@ -60,7 +60,7 @@ html {
 @media (max-width: 61.25em) {
   html {
     font-size: 58%;
-    font-family: "Comic Neue", cursive;
+    font-family: "Comic Neue";
   }
 }
 
@@ -68,18 +68,18 @@ html {
 @media (max-width: 28.75em) {
   html {
     font-size: 55%;
-    font-family: "Comic Neue", cursive;
+    font-family: "Comic Neue";
   }
 }
 
 /* Base styles */
 @font-face {
-  font-family: "Comic Neue", cursive;
+  font-family: "Comic Neue";
   src: url(https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,700&display=swap);
 }
 
 body {
-  font-family: "Comic Neue", cursive;
+  font-family: "Comic Neue";
   background-color: black;
   font-size: 1.8rem;
   font-weight: 400;
@@ -93,13 +93,13 @@ body {
 }
 
 @font-face {
-  font-family: "Comic Neue", cursive;
+  font-family: "Comic Neue";
   src: url(https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,700&display=swap);
 }
 
 h1,
 h2 {
-  font-family: "Comic Neue", cursive;
+  font-family: "Comic Neue";
   font-weight: 700;
   text-align: center;
   height: 80px;
@@ -107,23 +107,23 @@ h2 {
 
 h1 {
   font-size: 6rem;
-  font-family: "Comic Neue", cursive;
+  font-family: "Comic Neue";
 }
 
 h2 {
   font-size: 4.2rem;
-  font-family: "Comic Neue", cursive;
+  font-family: "Comic Neue";
 }
 
 ul {
   list-style: none;
-  font-family: "Comic Neue", cursive;
+  font-family: "Comic Neue";
 }
 
 a {
   text-decoration: none;
   color: var(--main-white);
-  font-family: "Comic Neue", cursive;
+  font-family: "Comic Neue";
 }
 
 img {
@@ -133,7 +133,7 @@ img {
 
 /* nav */
 @font-face {
-  font-family: "Comic Neue", cursive;
+  font-family: "Comic Neue";
   src: url(https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,700&display=swap);
 }
 
@@ -147,24 +147,24 @@ img {
   background: var(--main-red);
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
   z-index: 10;
-  font-family: "Comic Neue", cursive;
+  font-family: "Comic Neue";
 }
 
 .nav-list {
   display: flex;
   margin-right: 2rem;
-  font-family: "Comic Neue", cursive;
+  font-family: "Comic Neue";
 }
 
 @media (max-width: 28.75em) {
   .nav {
     justify-content: center;
-    font-family: "Comic Neue", cursive;
+    font-family: "Comic Neue";
   }
 
   .nav-list {
     margin: 0 1rem;
-    font-family: "Comic Neue", cursive;
+    font-family: "Comic Neue";
   }
 }
 
@@ -172,7 +172,7 @@ img {
   display: block;
   font-size: 2.2rem;
   padding: 2rem;
-  font-family: "Comic Neue", cursive;
+  font-family: "Comic Neue";
 }
 
 .nav-list a:hover {
@@ -189,16 +189,16 @@ img {
   align-items: center;
   width: 100%;
   height: 100vh;
-  font-family: "Comic Neue", cursive;
+  font-family: "Comic Neue";
 }
 
 .welcome-section > p {
   font-size: 3rem;
   font-weight: 200;
-  font-style: "Comic Neue", cursive;
+  font-style: "Comic Neue";
   color: var(--main-red);
   height: 50%;
-  font-family: "Comic Neue", cursive;
+  font-family: "Comic Neue";
 }
 
 /* Projects section */
@@ -207,20 +207,20 @@ img {
   text-align: center;
   padding: 10rem 2rem;
   background: var(--main-blue);
-  font-family: "Comic Neue", cursive;
+  font-family: "Comic Neue";
 }
 
 .projects-section-header {
   max-width: 640px;
   margin: 0 auto 6rem auto;
   border-bottom: 0.2rem solid var(--main-white);
-  font-family: "Comic Neue", cursive;
+  font-family: "Comic Neue";
 }
 
 @media (max-width: 28.75em) {
   .projects-section-header {
     font-size: 4rem;
-    font-family: "Comic Neue", cursive;
+    font-family: "Comic Neue";
   }
 }
 
@@ -238,7 +238,7 @@ img {
 @media (max-width: 30.625em) {
   .projects-section {
     padding: 6rem 1rem;
-    font-family: "Comic Neue", cursive;
+    font-family: "Comic Neue";
   }
 
   .projects-grid {
@@ -277,14 +277,14 @@ img {
   display: inline-block;
   padding: 1rem 2rem;
   border-radius: 2px;
-  font-family: "Comic Neue", cursive;
+  font-family: "Comic Neue";
 }
 
 .btn-show-all {
   font-size: 2rem;
   background: var(--main-gray);
   transition: background 0.3s ease-out;
-  font-family: "Comic Neue", cursive;
+  font-family: "Comic Neue";
 }
 
 .btn-show-all:hover {
@@ -313,7 +313,7 @@ img {
   height: 150vh;
   padding: 0 2rem;
   background: var(--main-gray);
-  font-family: "Comic Neue", cursive;
+  font-family: "Comic Neue";
 }
 
 .contact-section-header > h2 {
@@ -323,13 +323,13 @@ img {
 @media (max-width: 28.75em) {
   .contact-section-header > h2 {
     font-size: 4rem;
-    font-family: "Comic Neue", cursive;
+    font-family: "Comic Neue";
   }
 }
 
 .contact-section-header > p {
   font-style: italic;
-  font-family: "Comic Neue", cursive;
+  font-family: "Comic Neue";
 }
 
 .contact-links {
@@ -345,7 +345,7 @@ img {
   font-size: 2.4rem;
   text-shadow: 2px 2px 1px #1f1f1f;
   transition: transform 0.3s ease-out;
-  font-family: "Comic Neue", cursive;
+  font-family: "Comic Neue";
 }
 
 .contact-details:hover {
