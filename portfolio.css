@@ -23,7 +23,7 @@ portfolio/* Custom properties/variables  */
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+  box-sizing: space-evenly;
 }
 
 html {
@@ -304,7 +304,7 @@ img {
 /* Contact section */
 
 .contact-section {
-  display: flex;
+  display: center;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -314,6 +314,7 @@ img {
   padding: 0 2rem;
   background: var(--main-gray);
   font-family: "Comic Neue";
+  margin: 0 auto;
 }
 
 .contact-section-header > h2 {
@@ -334,9 +335,8 @@ img {
 
 .contact-links {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   width: 100%;
-  max-width: 980px;
   margin-top: 4rem;
   flex-wrap: wrap;
 }
