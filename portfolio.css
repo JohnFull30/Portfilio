@@ -84,7 +84,8 @@ html {
 }
 
 body {
-  font-family: "Comic Neue", "cursive";
+  font-style: italic;
+  font-family: "Comic Neue";
   background-color: black;
   font-size: 1.8rem;
   font-weight: 400;
@@ -104,6 +105,7 @@ body {
 
 h1,
 h2 {
+  font-style: italic;
   font-family: "Comic Neue";
   font-weight: 700;
   text-align: center;
@@ -112,22 +114,26 @@ h2 {
 
 h1 {
   font-size: 6rem;
+  font-style: italic;
   font-family: "Comic Neue";
 }
 
 h2 {
   font-size: 4.2rem;
+  font-style: italic;
   font-family: "Comic Neue";
 }
 
 ul {
   list-style: none;
+  font-style: italic;
   font-family: "Comic Neue";
 }
 
 a {
   text-decoration: none;
   color: var(--main-white);
+  font-style: italic;
   font-family: "Comic Neue";
 }
 
@@ -147,6 +153,7 @@ img {
   width: 100%;
   background: var(--main-red);
   z-index: 10;
+  font-style: italic;
   font-family: "Comic Neue";
 }
 
@@ -207,6 +214,7 @@ img {
   text-align: center;
   padding: 10rem 2rem;
   background: var(--main-blue);
+  font-style: italic;
   font-family: "Comic Neue";
 }
 
@@ -214,6 +222,7 @@ img {
   max-width: 640px;
   margin: 0 auto 6rem auto;
   border-bottom: 0.2rem solid var(--main-white);
+  font-style: italic;
   font-family: "Comic Neue";
 }
 
@@ -277,6 +286,7 @@ img {
   display: inline-block;
   padding: 1rem 2rem;
   border-radius: 2px;
+  font-style: italic;
   font-family: "Comic Neue";
 }
 
@@ -313,17 +323,21 @@ img {
   height: 150vh;
   padding: 0 2rem;
   background: var(--main-gray);
+  font-style: italic;
   font-family: "Comic Neue";
   margin: 0 auto;
 }
 
 .contact-section-header > h2 {
   font-size: 6rem;
+  font-style: italic;
+  font-family: "Comic Neue";
 }
 
 @media (max-width: 28.75em) {
   .contact-section-header > h2 {
     font-size: 4rem;
+    font-style: italic;
     font-family: "Comic Neue";
   }
 }
@@ -339,6 +353,8 @@ img {
   width: 100%;
   margin-top: 4rem;
   flex-wrap: wrap;
+  font-style: italic;
+  font-family: "Comic Neue";
 }
 
 .contact-details {
