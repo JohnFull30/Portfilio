@@ -34,7 +34,7 @@ html {
 }
 
 @media (max-width: 400px) and (max-height: 667px) and (-webkit-device-pixel-ratio: 2) {
-  html {
+  body {
     font-size: 60%;
     font-family: "Comic Neue";
     font-style: italic;
