@@ -37,11 +37,9 @@ html {
 @media (max-width: 75em) {
   html {
     font-style: italic;
+    font-size: 55%;
     font-family: "Comic Neue";
     background-color: black;
-    font-size: 1.8rem;
-    font-weight: 400;
-    line-height: 1.4;
     color: white;
     background-image: url("https://i.ibb.co/zbvfjzL/F-2.png");
     background-repeat: no-repeat;
@@ -55,11 +53,9 @@ html {
 @media (max-width: 61.25em) {
   html {
     font-style: italic;
+    font-size: 55%;
     font-family: "Comic Neue";
     background-color: black;
-    font-size: 1.8rem;
-    font-weight: 400;
-    line-height: 1.4;
     color: white;
     background-image: url("https://i.ibb.co/zbvfjzL/F-2.png");
     background-repeat: no-repeat;
@@ -72,12 +68,10 @@ html {
 /* 460px / 16px = 28.75em */
 @media (max-width: 28.75em) {
   html {
+    font-size: 55%;
     font-style: italic;
     font-family: "Comic Neue";
     background-color: black;
-    font-size: 1.8rem;
-    font-weight: 400;
-    line-height: 1.4;
     color: white;
     background-image: url("https://i.ibb.co/zbvfjzL/F-2.png");
     background-repeat: no-repeat;
