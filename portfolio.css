@@ -38,6 +38,9 @@ html {
   html {
     font-size: 60%;
     font-family: "Comic Neue";
+    font-style: italic;
+    background-position: center;
+    background-attachment: fixed;
   }
 }
 
