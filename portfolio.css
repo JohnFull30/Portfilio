@@ -41,22 +41,6 @@ html {
   }
 }
 
-/* 980px / 16px = 61.25em */
-@media (max-width: 61.25em) {
-  html {
-    font-size: 58%;
-    font-family: "Comic Neue";
-  }
-}
-
-/* 460px / 16px = 28.75em */
-@media (max-width: 28.75em) {
-  html {
-    font-size: 55%;
-    font-family: "Comic Neue";
-  }
-}
-
 /* Base styles */
 @font-face {
   font-family: "Comic Neue";
