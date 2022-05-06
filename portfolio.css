@@ -33,7 +33,7 @@ html {
   scroll-behavior: smooth;
 }
 
-@media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+@media only screen and (device-width: 400px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
   html {
     font-size: 60%;
     font-family: "Comic Neue";
