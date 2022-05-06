@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "heroku-postbuild": "npm run build",
+    "start": "node app.js"
+  },
+  "name": "genderreveal",
+  "version": "1.0.0",
+  "main": "countdown.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnFull30/Gender-Reveal-Countdown.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohnFull30/Gender-Reveal-Countdown/issues"
+  },
+  "homepage": "https://github.com/JohnFull30/Gender-Reveal-Countdown#readme",
+  "description": ""
+}
