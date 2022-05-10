@@ -289,7 +289,6 @@ img {
   text-shadow: 2px 2px 1px #1f1f1f;
   transition: transform 0.3s ease-out;
   font-family: "Comic Neue";
-  color: blue;
 }
 
 .contact-details:hover {
@@ -313,7 +312,6 @@ img {
     font-size: 60%;
     font-family: "Comic Neue";
     font-style: italic;
-    background-color: green;
     background-position: 50% -200px;
     background-attachment: fixed;
   }
