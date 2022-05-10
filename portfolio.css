@@ -296,37 +296,23 @@ img {
   color: red;
 }
 
-@media (max-width: 28.75em) {
+@media (max-width: 375px) {
   .nav {
+    font-style: italic;
     justify-content: center;
     font-family: "Comic Neue";
   }
 
   .contact-section-header > h2 {
     font-size: 4rem;
-    font-style: italic;
     font-family: "Comic Neue";
   }
 
-  @media (max-width: 30.625em) {
-    .projects-section {
-      padding: 6rem 1rem;
-      font-family: "Comic Neue";
-    }
-
-    @media (max-width: 28.75em) {
-      .projects-section-header {
-        font-size: 4rem;
-        font-family: "Comic Neue";
-      }
-    }
-
-    .body {
-      font-size: 60%;
-      font-family: "Comic Neue";
-      font-style: italic;
-      background-position: center;
-      background-attachment: fixed;
-    }
+  .body {
+    font-size: 60%;
+    font-family: "Comic Neue";
+    font-style: italic;
+    background-position: center;
+    background-attachment: fixed;
   }
 }
