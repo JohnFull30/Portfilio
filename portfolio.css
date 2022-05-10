@@ -296,7 +296,7 @@ img {
   color: red;
 }
 
-@media (max-width: 400px) {
+@media only screen and (max-width: 400px) {
   .nav {
     font-style: italic;
     justify-content: center;
@@ -308,11 +308,11 @@ img {
     font-family: "Comic Neue";
   }
 
-  .body {
+  body {
     font-size: 60%;
     font-family: "Comic Neue";
     font-style: italic;
-    background-position: center;
+    background-position: 50% -200px;
     background-attachment: fixed;
   }
 }
