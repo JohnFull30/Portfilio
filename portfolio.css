@@ -328,7 +328,9 @@ img {
     width: 100%;
     height: 260vh;
     font-family: "Comic Neue";
+    margin-top: 400px;
   }
+
   .projects-section-header {
     max-width: 100%;
     margin: 0;
