@@ -313,6 +313,7 @@ img {
   }
 
   body {
+    align-content: center;
     font-size: 60%;
     background-position: 47% -160px;
     background-attachment: fixed;
