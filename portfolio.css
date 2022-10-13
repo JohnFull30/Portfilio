@@ -133,7 +133,6 @@ img {
 }
 
 .nav-list a:hover {
-  background: var(--main-blue);
   color: red;
 }
 
@@ -319,6 +318,7 @@ img {
     background-position: 47% -160px;
     background-attachment: fixed;
     z-index: -10;
+    margin-left: auto;
   }
 
   .welcome-section {
@@ -340,7 +340,7 @@ img {
   }
   .projects-section {
     text-align: center;
-    padding: 1rem 2rem;
+    padding: 40rem 2rem;
     background: var(--main-blue);
     font-style: italic;
     font-family: "Comic Neue";
